@@ -1,0 +1,238 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section.home{
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+    
+}
+.home ul {
+        margin:0  auto;
+
+}
+.home ul li {
+list-style-type: none; 
+    display: inline;
+}
+.home ul li a{
+    display: inline-block;
+    margin-left: 0.50em;
+    padding: 1em 1.5em;
+    letter-spacing: 0.20em;
+    text-decoration: none;
+    font-size: 15px;;
+    font-weight: 600;
+    color: #FFF;
+}
+.home ul li a.act{
+    background: #ff6816;
+    border-radius: 8px;
+}
+.home h1{
+    color: #fff;
+    font-size: 3.5em;
+    font-weight: 700;
+}
+.home span{
+    font-style: italic;
+    color:rgba(255,255,255,0.8);;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+}
+/* start seaction 2 welcome */
+
+.welcom
+{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: #ededed;
+    
+}
+
+.welcom h2
+{
+    color: rgba(0,0,0,0.8);
+    font-size: 60px;
+    
+}
+
+.welcom h2 span
+{
+    color: #6F6F6F;
+    display: block;
+    font-size: 20px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #6F6F6F;
+    
+}
+
+.welcom p
+{
+    color: rgba(0,0,0,0.5);
+    width: 80%;
+    text-align:center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.welcom p span
+{
+    color: #000;
+    font-weight: 600;
+    
+}
+
+.welcom p a
+{
+    color: rgba(0,0,0,0.8);
+    text-transform: uppercase;
+}
+.welcom p a:hover
+{
+    text-decoration: none;
+}
+
+.welcom button
+{
+    padding: 25px;
+    width: 220px;
+    display: inline-block;
+    background: #ff6816;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    border: none;
+    font-size: 15px;
+    letter-spacing: 0.8;
+    margin-top: 30px;
+    cursor: pointer;    
+}
+
+/* end seaction 2 welcome */
+
+
+
+.portfolio{
+    background-color: #ffffff
+}
+
+.portfolio .portfolio-title h2{
+    font-size: 2.8em;
+    font-weight: 700
+}
+
+.portfolio .portfolio-title p{
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #6F6F6F;
+}
+.portfolio h3 {
+  display: block;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  text-transform: uppercase;
+  font-size: 1em;
+  color: rgba(0,0,0,0.6);
+}
+
+.portfolio .portfolio-item{
+    margin-top: 55px
+
+}
+
+.portfolio .portfolio-item p{
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0,0,0,0.5);
+}
+
+  .portfolio .portfolio-item .portfolio-icon i{
+    margin-bottom: 1em;
+    color: rgba(0,0,0,0.6);
+}
+
+
+
+
+.portfolio-item:after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    height: 100%;
+    right: -1px;
+    top: 5%;
+    width: 1px; 
+    background:rgba(0,0,0,0.1)
+}
+#max p{
+    color: #666666;
+}
+.main 
+{
+    
+    background-color: #333333 ;
+    text-align: center;
+    padding: 5em 0em;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.main h2
+{
+    margin-bottom: 0;
+    font-size: 2.8em;
+    color: rgba(255,255,255,0.9);
+}
+
+.main .p1
+{
+        letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.1em;
+    color: #6F6F6F;
+    
+}
+.main .p2
+{
+    letter-spacing: 0.20em;
+    text-transform: uppercase;
+    font-size: 0.80em;
+    color: rgba(255,255,255,0.3);
+}
+
+.main i
+{
+    
+           color: rgba(255,255,255,.4);
+        font-size: 30px;;
+        cursor: pointer;
+        padding: 15px;
+     padding-bottom: 25px;
+       padding-top: 25px;
+}
+.main i:hover
+
+{
+    
+    color: white;
+}
+
+.main a
+{
+        color: rgba(255,255,255,0.6);
+    cursor: pointer;
+}
+
