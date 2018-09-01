@@ -101,3 +101,63 @@ list-style-type: none;
     width: 1px; 
     background:rgba(0,0,0,0.1)
 }
+
+
+.main 
+{
+    
+    background-color: #333333 ;
+    text-align: center;
+    padding: 5em 0em;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.main h2
+{
+    margin-bottom: 0;
+    font-size: 2.8em;
+    color: rgba(255,255,255,0.9);
+}
+
+.main .p1
+{
+        letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.1em;
+    color: #6F6F6F;
+    
+}
+.main .p2
+{
+    letter-spacing: 0.20em;
+    text-transform: uppercase;
+    font-size: 0.80em;
+    color: rgba(255,255,255,0.3);
+}
+
+.main i
+{
+    
+           color: rgba(255,255,255,.4);
+        font-size: 30px;;
+        cursor: pointer;
+        padding: 15px;
+     padding-bottom: 25px;
+       padding-top: 25px;
+}
+.main i:hover
+
+{
+    
+    color: white;
+}
+
+.main a
+{
+        color: rgba(255,255,255,0.6);
+    cursor: pointer;
+}
+
