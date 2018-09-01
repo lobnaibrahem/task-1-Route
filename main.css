@@ -45,6 +45,80 @@ list-style-type: none;
     letter-spacing: 0.1em;
 }
 
+/* start seaction 2 welcome */
+
+.welcom
+{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: #ededed;
+    
+}
+
+.welcom h2
+{
+    color: rgba(0,0,0,0.8);
+    font-size: 60px;
+    
+}
+
+.welcom h2 span
+{
+    color: #6F6F6F;
+    display: block;
+    font-size: 20px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #6F6F6F;
+    
+}
+
+.welcom p
+{
+    color: rgba(0,0,0,0.5);
+    width: 80%;
+    text-align:center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.welcom p span
+{
+    color: #000;
+    font-weight: 600;
+    
+}
+
+.welcom p a
+{
+    color: rgba(0,0,0,0.8);
+    text-transform: uppercase;
+}
+.welcom p a:hover
+{
+    text-decoration: none;
+}
+
+.welcom button
+{
+    padding: 25px;
+    width: 220px;
+    display: inline-block;
+    background: #ff6816;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    border: none;
+    font-size: 15px;
+    letter-spacing: 0.8;
+    margin-top: 30px;
+    cursor: pointer;    
+}
+
+/* end seaction 2 welcome */
+
 
 .portfolio{
     background-color: #ffffff
