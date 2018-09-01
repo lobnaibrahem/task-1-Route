@@ -44,3 +44,60 @@ list-style-type: none;
     font-size: 12px;
     letter-spacing: 0.1em;
 }
+
+
+.portfolio{
+    background-color: #ffffff
+}
+
+.portfolio .portfolio-title h2{
+    font-size: 2.8em;
+    font-weight: 700
+}
+
+.portfolio .portfolio-title p{
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #6F6F6F;
+}
+.portfolio h3 {
+  display: block;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  text-transform: uppercase;
+  font-size: 1em;
+  color: rgba(0,0,0,0.6);
+}
+
+.portfolio .portfolio-item{
+    margin-top: 55px
+
+}
+
+.portfolio .portfolio-item p{
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0,0,0,0.5);
+}
+
+  .portfolio .portfolio-item .portfolio-icon i{
+    margin-bottom: 1em;
+    color: rgba(0,0,0,0.6);
+}
+
+
+
+
+.portfolio-item:after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    height: 100%;
+    right: -1px;
+    top: 5%;
+    width: 1px; 
+    background:rgba(0,0,0,0.1)
+}
